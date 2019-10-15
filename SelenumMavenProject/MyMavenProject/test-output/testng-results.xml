@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43063" started-at="2019-09-23T11:40:34Z" finished-at="2019-09-23T11:41:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43063" started-at="2019-09-23T11:40:34Z" finished-at="2019-09-23T11:41:17Z">
+      <class name="seleniumMavenProject.MyMavenProject.TestMavenProject">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:seleniumMavenProject.MyMavenProject.TestMavenProject@16c0663d]" test-instance-name="" name="launchBrowser" is-config="true" duration-ms="7049" started-at="2019-09-23T17:10:34Z" finished-at="2019-09-23T17:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:seleniumMavenProject.MyMavenProject.TestMavenProject@16c0663d]" test-instance-name="" name="openApplication" duration-ms="6439" started-at="2019-09-23T17:10:41Z" description="Open application in chrome driver." finished-at="2019-09-23T17:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:1, instance:seleniumMavenProject.MyMavenProject.TestMavenProject@16c0663d]" test-instance-name="" name="verifyHomepageTitle" duration-ms="11" started-at="2019-09-23T17:10:48Z" description="Verify Home page Title" finished-at="2019-09-23T17:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="verifyTooltip()[pri:2, instance:seleniumMavenProject.MyMavenProject.TestMavenProject@16c0663d]" test-instance-name="" name="verifyTooltip" duration-ms="29387" started-at="2019-09-23T17:10:48Z" description="verify Tooltip like inside Widget" finished-at="2019-09-23T17:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTooltip -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:seleniumMavenProject.MyMavenProject.TestMavenProject@16c0663d]" test-instance-name="" name="terminateBrowser" is-config="true" duration-ms="161" started-at="2019-09-23T17:11:17Z" finished-at="2019-09-23T17:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- seleniumMavenProject.MyMavenProject.TestMavenProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
